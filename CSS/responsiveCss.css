@@ -1,0 +1,27 @@
+/*===========================
+Tablet Layout
+===============================*/
+@media  screen and (min-width:200px) and (max-width:991px){
+  
+  .text_ar {width: 32%;margin-top: 50px; margin-left: 20px;}
+  .cd_a {width: 60%; float: left; line-height: 1.3rem;}
+  .child-area {margin-left: 10px;}
+  .child-footer {padding-left: 17px;}
+  .con_1 {padding-left: 15px; line-height: 1.5em;}
+  .con_1 h2 {font-size: 30px;}
+  .btn_1 input {margin-top: 0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,494 @@
+body {
+  line-height: 1.5em;
+  font-size: 16px;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 96%;
+  max-width: 1000px;
+}
+img {max-width: 100%;
+height: auto;}
+
+.alignleft{
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+a {
+  color: #fff;
+}
+
+
+#header-area {
+  width: 100%;
+  clear: both;
+  height: 100%;
+  max-height: 300px;
+}
+.top-header-area {
+  background-color:  #2e2e2e;
+  padding: 17px 0;
+  width: 100%;
+}
+.inner-top-header{
+  overflow: hidden;
+}
+.mini-menu {
+  padding-top: 5px;
+  width: 60%;
+  float: left;
+}
+.mini-menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+.mini-menu ul li{
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+.mini-menu ul li a{
+  display: block;
+  color: #9f9f9f;
+  font-size: 14px;
+  text-decoration: none;
+}
+.mini-menu ul li a::after{
+  background-color: #9f9f9f;
+  content: '';
+  width: 1px;
+  padding: 1px;
+  margin-left: 4px;
+}
+.social-area{
+  float: right;
+  width: 100%;
+  max-width: 200px;
+}
+.social-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.social-area ul li {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.social-area ul li a{
+  display: block;
+  padding-top: 1px;
+  list-style: none;
+  width: 25px;
+  text-align: center;
+  background-color: #787878;
+  border-radius: 50%;
+  color: #ffff;
+}
+.social_area ul li a:hover i.fa-linkedin-in{
+  background: #006EB4;
+}
+.social_area ul li a:hover i.fa-twitter{
+  background: #2EA5D2;
+}
+.social_area ul li a:hover i.fa-pinterest{
+  background: #EE332D;
+}
+.social_area ul li a:hover i.fa-google-plu{
+  background: #D33E32;
+}
+.social_area ul li a:hover i.fa-rss{
+  background: #ee802f;
+}
+
+.mrg_1 {
+  width: 100%;
+  height: 6px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+.mrg_3 {
+  width: 10%;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #0099ff;
+}
+.mrg_2 {
+  width: 100%;
+  height: 4px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+/*================================================================
+=======================Navigation Area============================
+=========================================================*/
+
+#nav-menu {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+}
+.inner-menu {
+  background: #ffffff;
+  min-height: 30px;
+  padding: 15px 0;
+}
+
+#nav-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+#nav-menu ul li {
+  display: inline-block;
+  position: relative;
+  margin: 0px 5px;
+}
+#nav-menu ul li a{
+  color: #2e2e2e;
+  font-size: 14px;
+  font-family: Georgia;
+  font-weight: normal;
+  display: block;
+  padding: 4px;
+  text-decoration: none;
+}
+#nav-menu ul li a:hover{
+  color: #b9190e;
+}
+#nav-menu ul li:hover a{
+  color: #D33E32;
+}
+#nav-menu ul li:hover ul li a{
+  color: #fff;
+}
+
+/*===================
+Dropdown Style
+===================*/
+#nav-menu ul ul {
+  position: absolute;
+  background-color: #EE332D;
+  width: 130px;
+  left: -999999px;
+  top: 30px;
+}
+#nav-menu ul ul li{
+  margin: 0;
+  display: block;
+}
+#nav-menu ul ul li a:hover {
+  background-color: #292323;
+  color: #fff;
+}
+#nav-menu ul li:hover ul {
+  left: 0;
+}
+
+
+/*================================================================
+=======================MAIN HEADER Area============================
+=========================================================*/
+
+#main-header {
+	margin: 0;
+	padding: 8px 0;
+	width: 100%;
+	height: 100px;
+}
+
+.logo-area {
+  float: left;
+  width: 60%;
+  margin-top: 10px;
+}
+.search-area {
+  float: right;
+  width: 40%;
+  margin-top: 16px;
+}
+.search-area form{
+  background: #fff;
+  float: right;
+  max-width: 350px;
+  width: 100%;
+}
+.search-area input{
+  background-color: #f1f1f1;
+  border: 2px solid #787878;
+  border-radius: 24px;
+  padding: 7px;
+  width: 70%;
+  float: left;
+  text-align: center;
+}
+.search-area input[type="submit"] {
+	background-color: #0099ff;
+	cursor: pointer;
+	float: right;
+	width: 23%;
+	padding: 7px;
+}
+.search-area input[type="submit"]:hover{
+  font-weight: bold;
+  color: #206dac;
+}
+
+
+
+/*================================================================
+=======================SLIDER CSS============================
+=========================================================*/
+
+#slider-area {
+  margin-top: 0px;
+}
+.inner-slider {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.sldr {
+  width: 60%;
+  float: right;
+}
+.slider {
+  box-shadow: #000;
+}
+.item{
+  position: relative;
+}
+.slider-caption {
+  position: absolute;
+  width: 100%;
+  color: #ee802f;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.text_ar {
+  width: 40%;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+.text_ar h1 {
+	font-size: 36px;
+	font-family: georgia;
+	font-weight: normal;
+  line-height: 1.1em;
+}
+.text_ar p {
+  font-size: 14px;
+  font-family: georgia;
+	font-weight: normal;
+  line-height: 1.1e
+}
+.link_1 {
+  float: left;
+  width: 110px;
+  height: 26px;
+  border-radius: 11px;
+  background-color: #0099ff;
+  color: #fff;
+  text-align: center;
+}
+.link_1 a {
+  color: #fff;
+  text-decoration: none;
+}
+.link_1 a:hover{
+  text-transform: uppercase;
+}
+
+/*================================================================
+=======================work Area============================
+=========================================================*/
+.work-area {
+  
+}
+.inner-top-work {
+  overflow: hidden;
+}
+.img_div{
+  float: left;
+   width: 40%;
+   height: 400px;
+   background-color: #000;
+}
+.cd_a {
+	width: 30%;
+	float: inline-start;
+  line-height: 1.3rem;
+}
+.cd_a h3, h4 {
+  font-weight: normal;
+  font-family: Grorgia;
+}
+.child-area {
+  margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*===============================
+Contact Area CSS
+=================================*/
+
+
+#contact {
+	width: 100%;
+	height: 150px;
+}
+.inner-contact {
+	background: grey;
+	overflow: hidden;
+}
+.brd_1 {
+	width: 1%;
+	height: 156px;
+	background-color: #0099ff;
+	float: left;
+}
+.con_1  {
+    width: 55%;
+    float: left;
+}
+
+
+.con_1 h2 {
+  font-family: Georgia;
+  font-size: 36px;
+  font-weight: normal;
+}
+.btn_1{
+    width: 30%;
+    float: right;
+    margin-top: 25px;
+}
+.btn_1 input {
+	background-color: #0099ff;
+	padding: 20px 0;
+  width: 100%;
+	max-width: 200px;
+	margin-right: 0px;
+	border-radius: 23px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.btn_1 input:hover {
+  background: rgb(16, 74, 161);
+}
+
+
+
+/*===============================
+Footer Area CSS
+=================================*/
+
+#footer_area {
+  padding: 45px 0;
+}
+.inner-footer {   
+  margin-top: 6px;
+  background: #1a1a1a;
+  overflow: hidden;
+}
+.child-footer {
+  padding-left: 15px;
+  width: 22%;
+  float: left;
+}
+.child-footer h3, h6, h4 {
+  color: #666666;
+}
+h6{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.child-footer ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+.child_blog {
+  width: 100%;
+  overflow: hidden;
+}
+
+.child-footer a {
+  float: left;
+}
+.child-footer a:hover {
+  text-transform: uppercase;
+}
+.child-footer input{
+  background-color: #232323;
+  color: #666666;
+  width: 96%;
+  max-width: 225px;
+  font-family: Georgia;
+  border: 0px solid;
+  border-radius: 9px;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+textarea {
+  background-color: #232323;
+  color: #666666;
+  font-family: Georgia;
+  min-height: 23px;
+  border-radius: 6px;
+}
+.child-footer input[type="submit"] {
+   background-color: #0099ff;
+   height: 30px;
+   width: 75px;
+   color: #ffff;
+   font-size: 16px;
+   font-family: Georgia;
+   padding: 2px;
+}
+
+.child-footer input[type="submit"]:hover {
+  background: rgb(16, 74, 161);
+  cursor: pointer;
+}
+/*===============================
+Copyright Area CSS
+=================================*/
+
+
+.inner-copyright {
+  overflow: hidden;
+  background-color: #222222;
+  color: #666666;
+}
+.left-copyright {
+  float: left;
+  width: 55%;
+  padding: 20px;
+}
+.right-copyright {
+	float: right;
+	width: 20%;
+	padding: 20px 20px;
+}
